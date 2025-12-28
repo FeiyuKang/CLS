@@ -14,7 +14,27 @@
       "Bash(npm install)",
       "Bash(npm install:*)",
       "Bash(cargo check:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(git commit:*)",
+      "Bash(powershell -Command \"cd api-server; cargo check\")",
+      "Bash(where cargo:*)",
+      "Bash(rustc:*)",
+      "Bash(where:*)",
+      "Bash(powershell -Command \"Write-Host ''Checking if we can install Rust via winget...''; winget --version\")",
+      "Bash(powershell -Command:*)",
+      "Bash(cargo test:*)",
+      "Bash(cargo run:*)",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /F /IM api-server.exe\")",
+      "Bash(del /F \"D:\\\\1wife\\\\0github\\\\CLS\\\\target\\\\debug\\\\api-server.exe\")",
+      "Bash(cmd /c \"netstat -ano | findstr :3000\")",
+      "Bash(netstat:*)",
+      "Bash(cmd /c \"taskkill /PID 20884 /F\")",
+      "Bash(wmic process where ProcessId=20884 get Name,CommandLine)",
+      "Bash(start chrome http://localhost:5174)",
+      "Bash(start http://localhost:5174)",
+      "Bash(curl:*)"
     ]
   }
 }

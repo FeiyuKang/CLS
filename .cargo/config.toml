@@ -1,5 +1,15 @@
 # Cargo configuration for faster builds during development
 
+[source.crates-io]
+replace-with = 'tuna'
+
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+
+[net]
+# Disable git fetch through CLI, use cargo's internal git
+git-fetch-with-cli = false
+
 [build]
 # Use incremental compilation for faster rebuilds
 incremental = true

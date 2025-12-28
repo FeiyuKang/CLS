@@ -12,21 +12,21 @@
 ## 2. Sprint 1 - MVP: Connected World
 
 ### Backend
-- [ ] 2.1 Define core data structures (Position, ContainerEntity, WorldState) in `shared-types`
-- [ ] 2.2 Implement simple MovementSystem that updates container position along straight line
-- [ ] 2.3 Create WebSocket broadcaster that sends full world state every 1 second
-- [ ] 2.4 Add basic logging and error handling
+- [x] 2.1 Define core data structures (Position, ContainerEntity, WorldState) in `shared-types`
+- [x] 2.2 Implement simple MovementSystem that updates container position along straight line
+- [x] 2.3 Create WebSocket broadcaster that sends full world state every 1 second
+- [x] 2.4 Add basic logging and error handling
 
 ### Frontend
-- [ ] 2.5 Render basic 3D sphere (Earth) using Three.js
-- [ ] 2.6 Add OrbitControls for camera rotation and zoom
-- [ ] 2.7 Implement WebSocket client that receives backend state
-- [ ] 2.8 Display a single moving cube representing a container (position updated from backend)
-- [ ] 2.9 Add connection status indicator (green=connected, red=disconnected)
+- [x] 2.5 Render basic 3D sphere (Earth) using Three.js
+- [x] 2.6 Add OrbitControls for camera rotation and zoom
+- [x] 2.7 Implement WebSocket client that receives backend state
+- [x] 2.8 Display a single moving cube representing a container (position updated from backend)
+- [x] 2.9 Add connection status indicator (green=connected, red=disconnected)
 
 ### Validation
-- [ ] 2.10 Manual test: Start backend, open frontend, verify cube moves from Chile to China coordinates
-- [ ] 2.11 Test reconnection: kill backend, restart, verify frontend reconnects
+- [x] 2.10 Manual test: Start backend, open frontend, verify cube moves from Chile to China coordinates
+- [x] 2.11 Test reconnection: kill backend, restart, verify frontend reconnects
 
 ## 3. Sprint 2 - Visualization Upgrade: Data Beauty
 
