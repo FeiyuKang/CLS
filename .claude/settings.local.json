@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(openspec list:*)",
+      "Bash(mkdir:*)",
+      "Bash(openspec validate:*)",
+      "Bash(openspec show:*)",
+      "Bash(tree:*)",
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(ssh:*)",
+      "Bash(git push:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(cargo check:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}

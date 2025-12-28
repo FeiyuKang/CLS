@@ -1,0 +1,15 @@
+# Cargo configuration for faster builds during development
+
+[build]
+# Use incremental compilation for faster rebuilds
+incremental = true
+
+[target.x86_64-pc-windows-msvc]
+# Enable parallel compilation
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
+
+[alias]
+# Convenient aliases for development
+dev = "watch -x 'run --bin api-server'"
+test-all = "test --workspace"
+build-release = "build --workspace --release"

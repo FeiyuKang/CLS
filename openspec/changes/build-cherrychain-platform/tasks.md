@@ -2,12 +2,12 @@
 
 ## 1. Project Scaffolding and Setup
 
-- [ ] 1.1 Initialize Rust workspace with Cargo.toml (workspace members: `simulation-engine`, `api-server`, `shared-types`)
-- [ ] 1.2 Set up Axum web server skeleton with WebSocket endpoint
-- [ ] 1.3 Initialize React + TypeScript frontend project with Vite
-- [ ] 1.4 Install Three.js and React-Three-Fiber dependencies
-- [ ] 1.5 Configure development environment (cargo watch, hot module reload)
-- [ ] 1.6 Set up basic CI/CD pipeline (GitHub Actions: lint, test, build)
+- [x] 1.1 Initialize Rust workspace with Cargo.toml (workspace members: `simulation-engine`, `api-server`, `shared-types`)
+- [x] 1.2 Set up Axum web server skeleton with WebSocket endpoint
+- [x] 1.3 Initialize React + TypeScript frontend project with Vite
+- [x] 1.4 Install Three.js and React-Three-Fiber dependencies
+- [x] 1.5 Configure development environment (cargo watch, hot module reload)
+- [x] 1.6 Set up basic CI/CD pipeline (GitHub Actions: lint, test, build)
 
 ## 2. Sprint 1 - MVP: Connected World
 
